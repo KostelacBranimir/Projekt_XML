@@ -2,7 +2,7 @@
 
 Pozdrav,
 
-Ovaj je projekt B Grill. Sastji se od 3 html stranice index, kontakt, meni i od php i xml dokumenta koji se
+Ovaj je projekt B Grill. Sastoji se od 3 html stranice index, kontakt, meni i od php i xml dokumenta koji se
 trebaju otvoriti preko vlstitog servera. 
 
 Upute:
