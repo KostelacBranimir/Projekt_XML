@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<collegedata>
+   <department category = "restoran">
+      <subjects lang = "en">B grill - Vrapće</subjects>
+      <name>Ulica Franje Rackog 2</name>
+      <time>10-22</time>
+      <telefon>01656251</telefon>
+   </department>
+     
+   <department category = "restoran">
+      <subjects lang = "en">B grill - Novi Zagreb</subjects>
+      <name>Radnička cesta 120</name>
+      <time>10-19</time>
+      <telefon>01457663</telefon>
+   </department>
+     
+   <department category = "restoran">
+      <subjects lang = "en">B grill - Dubrava</subjects>
+      <name>Ulica Stjepana Rajića 3</name>
+      <time>10-24</time>
+      <telefon>01489756</telefon>
+   </department>
+
+      <department category = "restoran">
+      <subjects lang = "en">B grill - Sigetje</subjects>
+      <name>Šestinski put 22</name>
+      <time>12-22</time>
+      <telefon>01698763</telefon>
+   </department>
+
+      <department category = "restoran">
+      <subjects lang = "en">B grill - Vrbik</subjects>
+      <name>Ulica Stipe Metikose</name>
+      <time>10-20</time>
+      <telefon>01325478</telefon>
+   </department>
+       
+</collegedata>
