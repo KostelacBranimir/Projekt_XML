@@ -1,0 +1,261 @@
+<!DOCTYPE HTML>
+    <head>
+        <meta charset="UTF-8"/>
+        <style>
+            * {margin:0; padding:0;}
+            table {
+                width: 100%;
+            }
+.ponude {
+                max-width: 1200px;
+                margin:0 auto;
+                font-family: 'Lato', sans-serif;
+                font-size: 15px;    
+            }
+.ponude h1 {
+                color: black;
+                text-decoration: none;
+                border-bottom: 5px solid gold;
+                padding-top: 2%;
+                text-align: center;
+            }
+.kategorija {
+                padding: 1% 0 1% 1%;
+                color:black;
+                border-bottom: 2px solid black;
+                font-size: 25px;
+                text-align: left;
+        }
+img {
+                    width: 150px;
+                    height: 150px;
+                    object-fit: cover;
+                    margin-left: 1%;
+                    margin-right: 2%;
+                    margin-top: 5%;
+        }
+.naziv {
+                font-family: 'Lato', sans-serif;
+                font-size: 18px;
+                padding: 2% 0 0 0;
+                margin-left: 2%;
+                font-weight: bold;
+        }
+.cijena {
+                float: right;
+                font-weight: bold;  
+        }
+.opis {
+                padding-left: 2%;
+                margin-top: -2%;
+        }
+.zaglavlje {
+                padding-top: -1%;
+        }
+.slike {
+                margin-right: 2%;
+        }
+header {
+    height: 60px;
+	background-color:black;
+    color:gold;
+}
+header h1 {
+    float:left;
+    font-size: 25px;
+    padding:12px;
+}
+header input[type=text] {
+    float: left;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+  nav {
+    float:right;
+}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+nav li {float:left;
+	width: 20%;
+    padding-right:15px;
+}
+nav a {float: left;
+    display: block;
+    width: 20%;
+    color:#999;
+    padding:20px 20px;
+    font-size:14px;
+    text-decoration:none;
+    letter-spacing:2px;
+}
+nav a:hover {
+    color:gold;
+    font-size: 15px;
+}
+footer {
+    text-align: center;
+    padding-top: 6.5%;
+    height: 45px;
+	background-color:black;
+    color:white;}
+        </style>
+
+    </head>
+    <body>
+        <div class="center">
+            <header>
+                <h1>B Grill</h1>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">POČETNA</a></li>
+                        <li><a href="meni.html">MENI</a></li>
+                        <li><a href="kontakt.html">KONTAKT</a></li>
+                        <li><a href="http://localhost/projekt_xml/code.php">Ostale lokacije</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main class="ponude">
+                <h1>PONUDA</h1>
+                <table>
+                    <tr >
+                        <th colspan="2" class="kategorija">Predjelo</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/burrata.jpg" alt="Burrata"/></td>
+                        <td>
+                                <span class="naziv">Burrata</span>
+                                <span class="cijena">59Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                na podlozi od miješanih mladih salata, polu-sušene šarene cherry rajčice, perlice aceto balzamica, pesto od sušenih rajčica, svježi bosiljak
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <th colspan="2" class="kategorija"></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/carpaccio.jpg" alt="carpaccio"/></td>
+                        <td>
+                                <span class="naziv">carpaccio</span>
+                                <span class="cijena">52Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                rikola, grana padano, kapari, šipak, reducirani aceto balsamico, toplo brioche pecivo
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <th colspan="2" class="kategorija">Glavno jelo</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/Ćevapi u umaku od kajmaka.jpg" alt="Ćevapi"/></td>
+                        <td>
+                                <span class="naziv">Ćevapi u umaku od kajmaka</span>
+                                <span class="cijena">59Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                Ćevapi u umaku od kajmaka
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <th colspan="2" class="kategorija"></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/Tri vrste ćevapa.jpg" alt="Ćevapi"/></td>
+                        <td>
+                                <span class="naziv">Tri vrste ćevapa</span>
+                                <span class="cijena">49Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                ćevapi, ćevapi sa sirom, pileći ćevapi sa sirom
+                            </p>
+                        </td>
+                    </tr>
+
+
+                    <tr >
+                        <th colspan="2" class="kategorija"></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/Gurmanska pljeskavica.jpg" alt="pljeskavica"/></td>
+                        <td>
+                                <span class="naziv">Gurmanska pljeskavica</span>
+                                <span class="cijena">59Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                sir, dimljena slanina, tucana paprika (350g)
+                            </p>
+                        </td>
+                    </tr>
+
+
+                    <tr >
+                        <th colspan="2" class="kategorija">Deserti</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/Palačinke.jpg" alt="Palačinke"/></td>
+                        <td>
+                                <span class="naziv">Palačinke</span>
+                                <span class="cijena">25Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                Palačinke s dodacima po želji
+                            </p>
+                        </td>
+                    </tr>
+
+                    <tr >
+                        <th colspan="2" class="kategorija"></th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" class="slike"><img class="jelo-slika" src="Slike/Sladoled.jpg" alt="Sladoled"/></td>
+                        <td>
+                                <span class="naziv">Sladoled</span>
+                                <span class="cijena">15Kn</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p class="opis">
+                                Okusi:Čokolada, Jagoda, Pistacijo, Limun, Vanilija, Šumsko voće
+                            </p>
+                        </td>
+                    </tr>
+
+                </table>
+            </main>
+        </div>
+        <footer>
+            <p>© Branimir Kostelac bkostelac@tvz.hr 2022</p>
+        </footer> 
+    </body>
+</html>
+
