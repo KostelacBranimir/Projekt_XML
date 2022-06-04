@@ -1,0 +1,195 @@
+* {margin:0; padding:0;}
+body {
+    background-color: white;
+}
+body p,label {
+    font-family:Verdana;
+}
+header {
+    height: 65px;
+	background-color:black;
+    color:gold;
+}
+
+header h1 {
+    float:left;
+    font-size: 35px;
+    padding:12px;
+}
+header input[type=text] {
+    float: left;
+    padding: 5px;
+    border: none;
+    margin-top: 7px;
+    margin-right: 15px;
+    font-size: 17px;
+  }
+  footer {
+    text-align: center;
+    padding-top: 6.5%;
+    height: 45px;
+	background-color:black;
+    color:white;}
+nav {
+    float:right;
+}
+nav li {
+    float:left;
+	width: 22%;
+    padding-right:14px;}
+nav ul {
+	list-style-type: none;
+	overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    width: 20%;
+    color:#999;
+    padding:18px 18px;
+    font-size:14px;
+    text-decoration:none;
+    letter-spacing:2px;
+}
+nav a:hover {
+    color:gold;
+    font-size: 16px;
+}
+/**Main**/
+main {
+    margin-left:3%;
+}
+
+main h1 {
+   text-align: center; 
+   color: black;
+   padding: 9px;
+   text-decoration: underline;
+}
+main p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 69%;
+    font-size: 16px;
+    padding: 11px;
+}
+main a {
+    text-decoration: underline;
+    color: rgb(144, 146, 33);
+}
+
+main a:hover {
+    font-size: 19px;
+}
+main img {
+    width: 69%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+.Nova_jela {
+    margin-bottom: 3%;
+}
+/**Meni**/
+.ponuda {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5em;
+  }
+  .ponuda h1 {
+      color: black;
+      text-decoration: none;
+      border-bottom: 5px solid red;
+  }
+  .naslov {
+    margin: 0;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    color:#f8c210;
+    border-bottom: 2px solid #ccc;
+  } 
+  .menu {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+  }
+  
+
+  .jelo {
+    display: flex;
+  }
+  .jelo-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.1em;
+  }
+  .jelo-name {
+    margin-right: 1.55em;
+  }
+  .opis {
+    line-height: 1.6;
+    margin-top: .99em;
+    margin-left: -0.2em;
+  }
+  .jelo-text {
+    flex-grow: 1;
+    margin-top: 0.6em;
+  }
+  .jelo-image {
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
+  }
+  
+
+/**Kontak**/
+
+.info {
+    margin-top: 1.1em;
+    text-align: center;
+}
+.info h2 {
+    font-size: 28px;
+}
+.info p {
+    font-size: 17px;
+    padding: 6px;
+
+}
+iframe {
+    margin-top: 2em;
+    margin-left: 36%;
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width:900px) {
+	/**Navigacija**/
+header h1,a{
+    text-align: center;
+    float: none;
+    width: 100%;
+}
+nav {
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 10%;
+}
+nav li {
+    width: 100%;
+}
+img.dost {
+    float: none;
+    width: 100%;
+}
+.dostava {
+    width: 100%;
+}
+}
